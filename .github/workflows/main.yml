@@ -24,7 +24,9 @@ jobs:
           python-version: "3.9"
 
       - name: 필요한 패키지 설치
-        run: pip install requests
+        run: |
+          pip install requests
+          pip install pytz
 
       - name: 날씨 데이터 가져오기
         env:
