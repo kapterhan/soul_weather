@@ -10,7 +10,7 @@ import pytz
 
 
 CITY = 'seoul'
-API_KEY = "01d81583c0d076e5eaa9a074e66d753d"
+API_KEY = ""
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
 response = requests.get(URL)
